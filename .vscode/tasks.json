@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "make: build",
+      "group": "build",
+      "command": "make",
+      "options": {
+        "shell": {
+          "executable": "wsl.exe"
+        }
+      },
+      "problemMatcher": [
+        {
+          "owner": "make",
+          "fileLocation": [
+            "relative",
+            "${workspaceFolder}"
+          ],
+          "pattern": {
+            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 1,
+            "line": 2,
+            "column": 3,
+            "severity": 4,
+            "message": 5
+          }
+        }
+      ]
+    }
+  ],
+}

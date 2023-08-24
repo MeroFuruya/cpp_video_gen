@@ -1,0 +1,6 @@
+{
+  "includePath": [
+    "src/**/*",
+    "include/**/*",
+  ],
+}
