@@ -4,6 +4,7 @@
 
 - [CImg](http://cimg.eu/) (C++ library for image processing)
 - ffmpeg (for video encoding) - no headers, only the binary is needed and the app output must be piped to it
+- g++ (or any other C++ compiler)
 
 ## Usage
 
