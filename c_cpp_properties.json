@@ -1,6 +1,9 @@
 {
   "includePath": [
-    "src/**/*",
+    "${workspaceFolder}/**",
+    "./src/",
     "include/**/*",
-  ],
+    "/usr/include/CImg/**/*",
+    "/usr/include/CImg/*"
+  ]
 }
