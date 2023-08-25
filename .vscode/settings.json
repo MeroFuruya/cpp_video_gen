@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.dsk": "ini",
+    "*.env.template": "properties",
+    "*.yml.template": "yaml",
+    "*.dproj": "xml",
+    "*.dpr": "objectpascal",
+    "cmath": "cpp"
+  }
+}

@@ -8,7 +8,10 @@
 namespace renderers
 {
   // moving rgb color. every pixel is a different color but no hard edges and the colors are moving
-  void rgb_moving_no_hard_edges(Frame &f);
+  void rgb_moving_no_hard_edges(RenderInfo &r);
+
+  // idk yet
+  void idk_yet(RenderInfo &r);
 }
 
 #endif
